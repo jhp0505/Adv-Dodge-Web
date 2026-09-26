@@ -85,7 +85,7 @@ export const CARD = Object.fromEntries(CARDS.map(c => [c.id, c])) as Record<Card
 export const STAGES: Stage[] = [1, 2, 3];
 export const DEFAULT_CONFIG: Config = {
   timing: { prepare: 300, rounds: [900, 900], switch: 120, finish: 180 },
-  title: '증강 피구 청백전', captains: { blue: '', white: '' },
+  title: '피구 청백전', captains: { blue: '', white: '' },
   rounds: [{ blue: 0, white: 0, firstThrow: null }, { blue: 0, white: 0, firstThrow: null }],
   earlyThird: true, unequalAccepted: false,
   descriptions: Object.fromEntries(CARDS.map(c => [c.id, c.detail])) as Record<CardId, string>,
