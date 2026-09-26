@@ -1,0 +1,294 @@
+{
+  "version": 2,
+  "intro": {
+    "open": false,
+    "index": 0
+  },
+  "revision": 7,
+  "mode": "live",
+  "config": {
+    "title": "증강 피구 청백전",
+    "captains": {
+      "blue": "청 주장",
+      "white": "백 주장"
+    },
+    "rounds": [
+      {
+        "blue": 10,
+        "white": 10,
+        "firstThrow": "blue"
+      },
+      {
+        "blue": 10,
+        "white": 10,
+        "firstThrow": "white"
+      }
+    ],
+    "earlyThird": true,
+    "unequalAccepted": false,
+    "descriptions": {
+      "color-ball": "색이 다른 공을 1개 추가합니다. 첫 유효 피격·캐치·코트 밖 이탈 후 추가 공을 회수하고 효과 사용 완료를 누릅니다.",
+      "bomber": "지정 아군이 유효 피격으로 아웃되면 그 공을 던진 상대도 함께 아웃됩니다. 심판이 대상을 확인하고 양 팀 동시 아웃을 입력합니다.",
+      "shield": "지정 1명의 모든 유효 피격을 라운드 종료까지 무효로 처리합니다. 이름의 첫과 달리 1회 소모형이 아닙니다.",
+      "crossing": "모든 외야수가 코트 안팎으로 이동할 수 있습니다. 이동 권한으로 들어온 외야수가 코트 안에서 맞으면 해당 팀 전체의 이동 권한이 종료됩니다. 임시 진입은 정식 부활로 집계하지 않습니다.",
+      "couple": "상대 코트 안 2명이 손수건을 함께 잡고 이동합니다. 한 명이 아웃되거나 손수건을 놓치면 둘 다 아웃입니다. 심판 확인 후 상대 팀 2명 아웃을 입력합니다.",
+      "rescue": "아군 피격 후 공이 바닥에 닿기 전에 아군이 공을 잡거나 닿기만 해도 피격자의 아웃이 무효입니다. 유효 아웃 여부는 심판이 결정합니다.",
+      "gymball": "기본 공을 가벼운 짐볼 또는 대형 소프트볼로 교체합니다. 공은 양 팀이 공유합니다. 양손 언더스로 어깨 높이 이하로만 투척합니다.",
+      "seal": "선택 시점의 상대 외야수만 그 자리에서 앉아 공을 잡습니다. 적당히 팔을 뻗는 것은 허용합니다. 이후 새로 아웃된 외야수는 포함하지 않습니다. 대상 인원은 선택 시점에 고정하고 실제 선수는 심판이 확인합니다.",
+      "foot": "선택 팀 선수의 발 피격은 무효입니다. 신발을 포함한 발 부위만 보호하며 발목 위·정강이는 포함하지 않습니다. 최종 판정은 심판이 합니다."
+    }
+  },
+  "startedAt": 1700000000000,
+  "endAt": 1700002400000,
+  "offset": 0,
+  "pausedAt": null,
+  "rounds": [
+    {
+      "number": 1,
+      "started": true,
+      "firstThrow": "blue",
+      "captains": {
+        "blue": "청 주장",
+        "white": "백 주장"
+      },
+      "startAt": 1700000300000,
+      "endAt": 1700001200000,
+      "teams": {
+        "blue": {
+          "initial": 10,
+          "alive": 10,
+          "outs": 0,
+          "revivals": 0,
+          "earlyUses": 0,
+          "earlyReserved": false,
+          "picks": [
+            {
+              "status": "reserved",
+              "candidates": [],
+              "card": null,
+              "eventId": "0-1-regular-5",
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            }
+          ]
+        },
+        "white": {
+          "initial": 10,
+          "alive": 10,
+          "outs": 0,
+          "revivals": 0,
+          "earlyUses": 0,
+          "earlyReserved": false,
+          "picks": [
+            {
+              "status": "reserved",
+              "candidates": [
+                "bomber",
+                "color-ball"
+              ],
+              "card": null,
+              "eventId": "0-1-regular-5",
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            }
+          ]
+        }
+      },
+      "result": null
+    },
+    {
+      "number": 2,
+      "started": false,
+      "firstThrow": "white",
+      "captains": {
+        "blue": "청 주장",
+        "white": "백 주장"
+      },
+      "startAt": null,
+      "endAt": null,
+      "teams": {
+        "blue": {
+          "initial": 10,
+          "alive": 10,
+          "outs": 0,
+          "revivals": 0,
+          "earlyUses": 0,
+          "earlyReserved": false,
+          "picks": [
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            }
+          ]
+        },
+        "white": {
+          "initial": 10,
+          "alive": 10,
+          "outs": 0,
+          "revivals": 0,
+          "earlyUses": 0,
+          "earlyReserved": false,
+          "picks": [
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            },
+            {
+              "status": "empty",
+              "candidates": [],
+              "card": null,
+              "eventId": null,
+              "chosenAt": null,
+              "note": "",
+              "effect": "active",
+              "affectedCount": null
+            }
+          ]
+        }
+      },
+      "result": null
+    }
+  ],
+  "processed": [
+    "r0-start"
+  ],
+  "rng": 951350123,
+  "serial": 7,
+  "selection": {
+    "id": "0-1-regular-5",
+    "round": 0,
+    "stage": 1,
+    "kind": "regular",
+    "teams": [
+      "white",
+      "blue"
+    ],
+    "index": 0,
+    "createdAt": 1700000300000,
+    "deadline": 1700000340000,
+    "highlighted": null
+  },
+  "queue": [],
+  "celebration": null,
+  "stopped": false,
+  "rpsWinner": null,
+  "logs": [
+    {
+      "id": 1,
+      "at": 1700000000000,
+      "text": "실전 행사 시작 · 40분 고정"
+    },
+    {
+      "id": 2,
+      "at": 1700000001000,
+      "text": "1라운드 선공 청팀 · 증강 우선 백팀"
+    },
+    {
+      "id": 3,
+      "at": 1700000002000,
+      "text": "2라운드 선공 백팀 · 증강 우선 청팀"
+    },
+    {
+      "id": 4,
+      "at": 1700000300000,
+      "text": "1라운드 시작 · 백팀 증강 우선"
+    },
+    {
+      "id": 6,
+      "at": 1700000300000,
+      "text": "1단계 정규 선택 예약 · 백팀, 청팀"
+    },
+    {
+      "id": 7,
+      "at": 1700000300000,
+      "text": "1단계 선택 시작 · 두 팀 공통 최대 40초"
+    }
+  ],
+  "undo": []
+}

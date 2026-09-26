@@ -1,16 +1,2 @@
-:root {
-  color: #1f2937;
-  background: #ffffff;
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  line-height: 1.5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  min-width: 320px;
-  min-height: 100vh;
-  margin: 0;
-}
+:root{font-family:"Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif;color:#f2f4f8;background:#111722;font-synthesis:none;font-weight:500;--blue:#2878ff;--gold:#edbd55;--stage:#edbd55;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;min-width:720px}button,input,select,textarea{font:inherit}button{cursor:pointer;border:2px solid #4e617b;border-radius:3px;background:#223148;color:#f2f4f8;padding:11px 16px;font-weight:800;line-height:1.35}button:hover:not(:disabled){background:#314766;border-color:#9fb6d5}button:disabled{opacity:.38;cursor:default}button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #edbd55;outline-offset:3px}button.primary{background:#edbd55;color:#172130;border-color:#edbd55}button.primary:hover:not(:disabled){background:#ffdc8d}input,textarea{background:#101c2c;border:2px solid #4a5b73;border-radius:2px;color:#fff;padding:12px;width:100%}input[type=checkbox]{width:20px;height:20px;accent-color:#edbd55}input[type=range]{accent-color:#edbd55;padding:0}textarea{resize:vertical}label{display:flex;flex-direction:column;gap:9px;font-weight:700}h1,h2,h3,h4,p{margin:0}h1,h2,h3,h4{line-height:1.25;word-break:keep-all}p{line-height:1.6}fieldset{min-width:0;border:2px solid #435670;padding:20px;margin:0}legend{padding:0 8px;font-weight:900}table{border-collapse:collapse;width:100%}th,td{border-bottom:1px solid #4d6079;padding:14px;text-align:center}details{border-top:1px solid #45556d;margin-top:18px;padding-top:15px}summary{cursor:pointer;font-weight:800}small{font-size:.75em}.two-columns{display:grid;grid-template-columns:1fr 1fr;gap:20px}.button-row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.centered{justify-content:center}.muted{font-size:13px;color:#c0ccdb}.warning-text{color:#ffd399}.eyebrow{font-size:15px;color:#edbd55;font-weight:900}.panel{background:#192536;border:2px solid #415570;padding:26px}.stage-1{--stage:#edbd55}.stage-2{--stage:#f39450}.stage-3{--stage:#b59df1}.stage-tag{background:var(--stage);color:#172130;font-weight:900;font-size:17px;padding:7px 12px;display:inline-block}.pictogram{display:block;width:100%;height:100%;flex:none}em{font-style:normal;color:#edbd55}::selection{background:#3262a1;color:#fff}
